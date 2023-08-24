@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 23</title>
+  <script defer src="js/eventListener.js"></script>
+  <script defer src="js/main.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header-logo">
+          <img src="images/githublogo.svg" alt="an img">
+          <a class="header-logo-name" href="index.html">Dashboard</a>
+        </div>
+        <nav class="header-nav">
+          <form class="header-form" action="#">
+            <input type="search" placeholder="Type / to search">
+            <img src="./images/search2.png" alt="an img">
+          </form>
+          <div class="header-add">
+            <p>+</p>
+          </div>
+          <div class="header-avatar">
+            <img src="images/myavatar.jpg" alt="an img">
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-top">
+            <div class="hero-top-left">
+              <a class="hero-top-foryou" href="#">
+                For you <span>Beta</span>
+              </a>
+              <a class="hero-top-following" href="#">
+                Following
+              </a>
+            </div>
+            <div class="hero-top-right">
+              <a class="hero-top-feedback" href="#">Send Feedback</a>
+              <select>
+                <option value="filter" selected>Filter</option>
+                <option value="following">Following</option>
+                <option value="follow">Follow</option>
+              </select>
+
+            </div>
+          </div>
+          <div class="hero-main">
+            <h1 class="hero-main-title">All Profiles</h1>
+            <div class="hero-main-row">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="pagination">
+    <p class="pag-prev">"...Previous</p>
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p class="pag-next">Next...</p>
+  </div>
+</body>
+
+</html>
